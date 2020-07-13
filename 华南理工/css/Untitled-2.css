@@ -1,0 +1,176 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#rightfixed{
+	z-index: 9999;
+}
+
+.header_1 {
+	padding-left: 10px;
+	background-color: #0c7ed9;
+}
+.header_2 {
+	height: 60px;
+	position: relative;
+}
+
+.header_3-1 {
+	width: 60px;
+	height: 100px;
+	float: left;
+}
+.header_3 {
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	
+}
+
+.header_3-2 {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+
+.header_3 a{
+	text-decoration: none;
+	color: #000;
+	font-family: "微软雅黑";
+}
+.header_3 ul{
+	list-style-type: none;	
+}
+.zhongbu_1{
+	background-color: #ECECEC;
+	height: 40px;
+	margin-top: 20px;
+	position: relative;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #09F;
+	
+	
+}
+.header_2 .other_1 {
+	color: #FFF;
+	font-size: 24px;
+	background-color: rgba(12,125,217,0.6);
+	height: 30px;
+	width: 140px;
+	position: absolute;
+	right: 0px;
+	bottom: 2px;
+}
+
+.zhongbu_1-2 {
+	height: 50px;
+	width: 120px;
+	position: absolute;
+	left: 22px;
+	top: 10px;
+}
+
+
+.zhongbu_1-1 {
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top: 10px;
+}
+.qikan_1{
+	
+	height: 940px;
+	margin-top: 20px;
+	border-top-width: 2px;
+	border-top-style: solid;
+	border-top-color: #999;
+}
+.qikan_1-2{
+	width: 400px;
+	height: 250px;
+	float: left;
+}
+.qikan_1-3{
+	width: 150px;
+	height: 300px;
+	margin-left: 20px;
+	margin-top: 30px;
+	float: left;
+}
+.qikan_1-3 a{
+	font-size: 14px;
+	
+}
+.qikan_1-3-1{
+	height: 30px;
+	width: 80px;
+	margin-left: 80px;
+	
+}
+.qikanName_1{
+	width: 170px;
+	height: 30px;
+	float: left;
+	padding-left: 10px;
+}
+.qikanName_1 a{
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+.qikanName_2{
+	width: 130px;
+	height: 30px;
+	float: left;
+	padding-left: 30px;
+}
+.qikanName_2 a{
+	font-size: 18px;
+	text-decoration: none;
+	color: black;
+}
+.qikan_1-2 img{
+	height: 200px;
+}
+.nextYe{
+	float: left;
+	height: 40px;
+	
+}
+.nextYe-1{
+	margin-left: 60px;
+	margin-top: 40px;
+}
+.nextYe-2{
+	width: 75px;
+	height: 30px;;
+	float: left;
+	
+}
+.nextYe-2 a{
+	text-decoration: none;
+	color: #8C8C8C;
+	font-size: 16px;
+}
+.End{
+	width: 100%;
+	height: 150px;
+	background-color: #5E5E5E;
+	float: left;
+}
+.End-1{
+	margin-left: 10%;
+	margin-top: 10px;
+	float: left;
+}
+.End-1 a{
+	color: #C0C0C0;
+	text-decoration: none;
+	
+}

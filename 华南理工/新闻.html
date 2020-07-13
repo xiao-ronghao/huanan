@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/xinwen.css" />
+		<link rel="stylesheet" type="text/css" href="css/导航.css" />
+		<script src="js/jquery-1.12.4.js"></script>
+	</head>
+	<body>
+		<div id="rightfixed">
+		    <ul>
+		        <li><span>1</span><a href="首页.html">首页</a></li>
+		        <li><span>2</span><a href="新闻.html">新闻</a></li>
+		        <li><span>3</span><a href="专业介绍.html">专业介绍</a></li>
+	        	<li><span>4</span><a href="学术期刊.html">学校期刊</a></li>
+				<li><span>5</span><a href="学校简介.html">学校简介</a></li>
+		        <li><span>6</span><a href="学校全景图.html">学校全景图</a></li>
+		        <li><span>7</span><a href="联系我们.html">联系我们</a></li>
+				<li><span>8</span><a href="Untitled-1.html">关于我们</a></li>
+		    </ul>
+		</div>
+		<div class="head-1">
+			<img src="img/1.png" height="100px" />
+			<img id="head-1" src="img/1-1.jpg" />
+			<ul class="menu-list">
+				<li>
+					<p class="menu-head">学校概况</p>
+					<div class="menu-body">
+						<a href="#">学校简介</a>
+						<a href="#">学校沿革</a>
+						<a href="#">学校标识</a>
+						<a href="#">学校章程</a>
+						<a href="#">学校领导</a>
+					</div>
+				</li>
+				<li>
+					<p class="menu-head">人才培养</p>
+					<div class="menu-body">
+						<a href="#">师资队伍</a>
+						<a href="#">本科生教育</a>
+						<a href="#">研究生教育</a>
+						<a href="#">留学生教育</a>
+					</div>
+				</li>
+				<li>
+					<p class="menu-head">科学研究</p>
+					<div class="menu-body">
+						<a href="#">研究机构</a>
+						<a href="#">学术期刊</a>
+						<a href="#">自然科学</a>
+						<a href="#">社会科学</a>
+						<a href="#">科技成果转化</a>
+					</div>
+				</li>
+				<li>
+					<p class="menu-head">招生就业</p>
+					<div class="menu-body">
+						<a href="#">本科生招生</a>
+						<a href="#">研究生招生</a>
+						<a href="#">继续教育招生</a>
+						<a href="#">就业服务</a>
+						<a href="#">数字迎新系统</a>
+					</div>
+				</li>
+				<li><p>机构设置</p></li>
+				<li><p>图书馆</p></li>
+				<li><p>在校学生</p></li>
+				<li><p>教职员工</p></li>
+				<li><p>校友</p></li>
+				
+			</ul>
+		</div>
+		
+		<script>
+			$('#head-1').ready(function(){
+				$('.menu-list').hide();
+			});
+			$('#head-1').click(function(){
+				$('.menu-list').toggle('slow','linear');
+			});
+			
+			
+			$('.menu-head + div').hide();
+			$('.menu-head').click(function(){
+				
+				$(this).next('div').show();
+				var parentli = $(this).parent('li');
+				var lis = parentli.siblings('li');
+				
+				lis.children('div').hide();
+			});
+		</script>
+	<div class="xinwen-9">
+		<p class="shouye">
+			<a href="首页.html">首页</a>》校园新闻
+		</p>
+		
+		<h1 class="biaoti">&nbsp;&nbsp;深化“一带一路”国
+		际交流合作顶层设计　校级出访西葡法三国高校</h1>
+		
+		<p class="shijian">时间：2019-12-22 &nbsp; 
+		单位：党委宣传部 &nbsp; 浏览量 ：1000</p>
+		
+		<p class="zi-1">　　12月10-19日，华南理工大学党委书记章熙春率团出访
+		葡萄牙里斯本大学（里斯本理工大学）、西班牙加泰罗
+		尼亚大学以及法国巴黎第五大学，签署校级合作协议并
+		商谈了涉及计算机、化学、化工以及工商管理领域的具
+		体合作项目，开拓和深化了学校“一带一路”教育合作的
+		版图布局。</p>
+		<p>
+			<img src="img/28.jpg" width="100%" />
+		</p>
+		<p class="zi-1">
+			　　里斯本理工大学校长Arlindo Oliverira , 
+			副校长Miguel Sileira会见了章熙春一行。Arlindo
+			 Oliverira介绍了该校建设与发展情况及该校对华合作
+			 情况，期待两校能在相关领域推动务实合作。章熙春介
+			 绍了华南理工大学的近期发展以及广州国际校区建设情况，提出“一带一路”是中国教育国际交流合作的顶层设计和中国教育走向世界舞台中央的路线图，因此华南理工大学非常珍视与葡萄牙高校的合作，创新性地提出探索“里斯本理工-澳门大学-华南理工”的三方合作交流的倡议，共同设计青年活动、学者交流或课程共建，推动“粤港澳”与“一带一路”沿线高校的人文交流，实现在更高层次、更大范围、更广领域推进教育国际合作交流全方位的发展。章熙春代表学校与该校签署了3+2本硕双向联合培养项目协议，
+			项目将率先在计算机和化工领域推行实施。
+		</p>
+		<p>
+		   <img src="img/29.png" width="100%">
+		</p>
+		<p class="zi-1">
+			　　里斯本理工大学校长Arlindo Oliverira , 副校长
+			Miguel Sileira会见了章熙春一行。Arlindo Oliverira
+			介绍了该校建设与发展情况及该校对华合作情况，期待两
+			校能在相关领域推动务实合作。章熙春介绍了华南理工大学的近期发展以及广州国际校区建设情况，提出“一带一路”是中国教育国际交流合作的顶层设计和中国教育走向世界舞台中央的路线图，因此华南理工大学非常珍视与葡萄牙高校的合作，创新性地提出探索“里斯本理工-澳门大学-华南理工”的三方合作交流的倡议，共同设计青年活动、学者交流或课程共建，推动“粤港澳”与“一带一路”沿线高校的人文交流，实现在更高层次、更大范围、更广领域推进教育国际合作交流全方位的发展。章熙春代表学校与该校签署了3+2本硕双向联合培养项目
+			协议，项目将率先在计算机和化工领域推行实施。
+		</p>
+		<p class="zi-2">
+			附：学校介绍
+		</p>
+		
+		<p class="zi-3">
+			　　巴黎第五大学&nbsp;(也称巴黎笛卡尔大学Université Paris Descartes或Paris-V)是一所实力雄厚，声望很高的学府，尤其以医学，生物医学和药学著称，在人文科学领域亦有建树，是欧洲最古老的大学之一。该校以法国哲学家勒内·笛卡尔(1596~1650)的科学探索精神为指导，注重教学与科研实践，现有在校学生38,900多名，教学及科研人员3400多位。2019上交排名151-200。目前，巴黎五大，巴黎七大和巴黎地球物理研究所正在合并过程，2020年1月将正式组建为巴黎大学，届时综合排名将跃居法国第三。
+		</p>
+		
+		<p class="zi-3">
+			　　加泰罗尼亚理工大学（Universitat Politècnica de Catalunya），简称UPC，是西班牙最顶尖的理工科大学，同时也是一所欧洲顶尖、享誉世界的理工科院校。2019年QS排名275。建筑，土木工程，电气与电力工程，电信工程等学科位列上交与QS排名世界前50。
+		</p>
+		
+		<p class="zi-3">
+			UPC专注于工程与自然科学前沿领域的研究，其高质量的教学与科研水平在国际上具有很高的知名度。UPC拥有18个学院，&nbsp;27951名学生和3147名教学与研究人员，2006名行政工作人员。2019年科研经费为29.5亿欧元，研发收入为5.8亿欧元，2018年获批专利15项。&nbsp;
+		</p>
+		
+		<p> <img src="img/pre.jpg"/><img src="img/next.jpg"/></p>
+		
+	</div>
+	
+	<div class="zi-4">
+			<p>  华南理工大学 版权所有 党委宣传部主办 Copyright © 2018  www.scut.edu.cn All Rights Reserved </p>
+			粤ICP备05084312号
+	</div>
+	
+	<script type="text/javascript" src="js/导航.js"></script>
+	</body>
+</html>

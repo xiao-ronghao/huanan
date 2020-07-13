@@ -1,0 +1,77 @@
+#rightfixed{
+	z-index: 9999;
+}
+.xinwen-1 {
+	color: #FFFFFF;
+	padding: 3%;
+}
+.xinwen-1 .wenzi-1{
+	font-family: "微软雅黑";
+	float: left;
+	color: #0C7ED9;
+	font-size: 20px;
+	margin-bottom: 10px;
+	background-color: white;
+}
+.xinwen-1 .wenzi-2{
+	float: right;
+	background-color: #0C7ED9;
+	font-size: 20PX;	
+	color: #fbfbfb;
+	margin-bottom: 10px;
+}
+
+	
+
+.xinwen-1 span{
+	font-family: "微软雅黑";
+	height: 25px;
+	display: block;
+	background-color: rgba(0,0,0,0.6);
+	position: relative;
+	float: none;
+	bottom: 25px;
+}
+.xinwen-9{
+	margin: 3%;
+}
+.shouye{
+	width: 100%;
+	display: block;
+	color: #747474;
+	margin-bottom: 3%;
+	border-bottom: solid 1px #747474;
+}
+.biaoti{
+	text-align: center;
+	margin-bottom: 3%;
+}
+.shijian {
+	display: block;
+	color: #999;
+	font-size: 14px;
+	margin-bottom: 3%;
+	border-bottom: solid 1px #747474;
+}
+.zi-1{
+	color: #18181a;
+	font-size: 16px;
+	display: block;
+	margin-bottom: 10px;
+}
+.zi-2{
+	font-family: 楷体,楷体_gb2312, simkai;
+	font-weight: bold;
+}
+.zi-3{
+	font-family: 楷体,楷体_gb2312, simkai;
+}
+.zi-4{
+	height: 100px;
+	color: #a2a3a4;
+	font-size: 14px;
+	padding-top: 20px;
+	background-color: #18181a;
+	padding: 3%;
+	padding-top: 30px;
+}

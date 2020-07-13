@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+	<link rel="stylesheet" type="text/css" href="css/导航.css" />
+	
+	<style type="text/css">
+		body, html{width: 100%;height: 100%;margin:0;font-family:"微软雅黑";}
+		#panorama {
+	width: 100%;
+	height: 500px;
+	
+}
+		#result {
+	width: 100%;
+	font-size: 12px;
+	padding-bottom: 40px;	
+}
+		#fanhui{
+	
+}
+        #weiyi{
+	width: 100%;
+	height: 110px;
+	text-align:center;
+	background-color: #E4E4E4;
+	 
+}
+    #weier{
+	background-color: #7F7F7F;
+	color: #FFF;
+	 
+		}
+		*{
+	margin: 0;
+	padding: 0;
+}
+.header_2 .other_1 {
+	color: #FFF;
+	font-size: 24px;
+	background-color: rgba(12,125,217,0.6);
+	height: 30px;
+	width: 120px;
+	position: absolute;
+	right: 0px;
+	bottom: 2px;
+}
+
+.div{
+	display: block;
+	list-style-type: none;
+}
+.header_1 {
+	padding-left: 10px;
+	background-color: #0c7ed9;
+}
+.header_2 {
+	height: 60px;
+	position: relative;
+}
+
+.header_3-1 {
+	width: 60px;
+	height: 100px;
+	float: left;
+}
+.header_3 {
+	height: 40px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #999;
+	
+}
+
+.header_3-2 {
+	height: 100px;
+	width: 100px;
+	float: left;
+}
+
+
+.header_3 a{
+	text-decoration: none;
+	color: #000;
+	font-family: "微软雅黑";
+}
+.header_3 ul{
+	list-style-type: none;	
+}
+.zhongbu_1{
+	background-color: #ECECEC;
+	height: 40px;
+	margin-top: 20px;
+	position: relative;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #09F;
+	
+	
+}	 	 
+	</style>
+	<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=HQgUH2OqTDqwOYYwqnyGWWH3v13Gq4Wb"></script>
+	<title>获取指定的全景图</title>
+</head>
+<body>
+     <div id="rightfixed">
+         <ul>
+	        <li><span>1</span><a href="首页.html">首页</a></li>
+	        <li><span>2</span><a href="新闻.html">新闻</a></li>
+	        <li><span>3</span><a href="专业介绍.html">专业介绍</a></li>
+	        <li><span>4</span><a href="学术期刊.html">学校期刊</a></li>
+			<li><span>5</span><a href="学校简介.html">学校简介</a></li>
+	        <li><span>6</span><a href="学校全景图.html">学校全景图</a></li>
+	        <li><span>7</span><a href="联系我们.html">联系我们</a></li>
+			<li><span>8</span><a href="Untitled-1.html">关于我们</a></li>
+	    </ul>
+     </div>
+	<div class="header_1">
+    		<img src="img/1.png" height="100px">
+    </div>
+    <div class="header_2">
+    	<img src="img/1-2.jpg" width="100%">
+          <div class="other_1">校园全景图</div>
+    <div class="header_3">
+    	<ul>
+        	<li class="header_3-1"><a href="#">首页</a>  </li>
+            <li class="header_3-2"><a href="#">学校概况</a>  </li>
+            <li class="header_3-2"><a href="#">校园全景图</a></li>
+        </ul>
+    </div>
+<div id="panorama"> </div>
+	<div id="result">
+    
+		<button id="setPanoramaByLocation">五山校区</button>&nbsp;&nbsp;
+        <button id="setPanoramaByLocation6">北门（侧门）</button>&nbsp;&nbsp;
+        <button id="setPanoramaByLocation4">博学楼</button>&nbsp;&nbsp;
+        <button id="setPanoramaByLocation3">逸夫科学馆</button>&nbsp;&nbsp;
+        <button id="setPanoramaByLocation7">图书</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button id="setPanoramaByLocation2">大学城校区</button>&nbsp;&nbsp;
+        <button id="setPanoramaByLocation8">国际校区</button>&nbsp;&nbsp;
+         <button id="setPanoramaByLocation9">学术讲堂</button>&nbsp;&nbsp;
+        
+</div>
+<div id="weiyi"><table width="100%" border="0">
+  <tr>
+    <td height="10">&nbsp;学校概况</td>
+    <td>&nbsp;结构设置</td>
+    <td>&nbsp;人才培养</td>
+    <td>&nbsp;科学研究</td>
+  </tr>
+  
+  <tr>
+    <td>&nbsp;招生就业</td>
+    <td>&nbsp;图书馆</td>
+    <td>&nbsp;校园生活</td>
+    <td>&nbsp;人才招聘</td>
+  </tr>
+  <tr>
+    <td>&nbsp;合作交流</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+<div id="weier"><table width="100%" border="0">
+  <tr>
+    <td>&nbsp;<p>五山校区地址：广州市天河区五山路381号</p><p>邮编：510641</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;<p>大学城校区地址：广州市番禺区广州大学城</p><P>邮编：510006</P></td>
+  </tr>
+  <tr>
+    <td>&nbsp;<p>广州国际校区地址：广州市番禺区兴业大道东777号</p><p>邮编：511442</p></td>
+  </tr>
+  <tr>
+    <td>&nbsp;   招生咨询：020-871100737&nbsp;&nbsp;网上查号<h5>  </h5> </td>
+  </tr>
+  <tr>
+    <td>&nbsp;网页设计制作、管理：党委宣传部 &nbsp;&nbsp;信息网络工程研究中兴</td>
+  </tr>
+  <tr>
+    <td>&nbsp;2016@华南理工大学 &nbsp;&nbsp;版权所有 &nbsp;&nbsp;粤ICP备05084312号</td>
+  </tr>
+  
+</table>
+</div>
+        
+		<script type="text/javascript" src="js/导航.js"></script>
+</body>
+</html>
+<script type="text/javascript"> 
+	var map = new BMap.Map('panorama');
+	map.centerAndZoom(new BMap.Point(113.351557,23.161069), 12);
+	map.addTileLayer(new BMap.PanoramaCoverageLayer());
+
+	var panorama = new BMap.Panorama('panorama'); 
+	panorama.setPov({heading: -40, pitch: 6});
+	document.getElementById("setPanoramaByLocation").onclick = function(){ 
+		panorama.setPosition(new BMap.Point(113.354431,23.155711)); //根据经纬度坐标展示全景图		
+	};
+	var panorama = new BMap.Panorama('panorama'); 
+	panorama.setPov({heading: -40, pitch: 6});
+	document.getElementById("setPanoramaByLocation3").onclick = function(){ 
+		panorama.setPosition(new BMap.Point(113.353216,23.160906));  	
+	};
+	var panorama = new BMap.Panorama('panorama'); 
+	panorama.setPov({heading: -40, pitch: 6});
+	document.getElementById("setPanoramaByLocation4").onclick = function(){ 
+		panorama.setPosition(new BMap.Point(113.349257,23.172983));   
+	};
+	var panorama = new BMap.Panorama('panorama'); 
+	panorama.setPov({heading: -40, pitch: 6});
+	document.getElementById("setPanoramaByLocation6").onclick = function(){ 
+		panorama.setPosition(new BMap.Point(113.349969,23.173507));   		
+	};
+	var panorama = new BMap.Panorama('panorama'); 
+	panorama.setPov({heading: -40, pitch: 6});
+	document.getElementById("setPanoramaByLocation7").onclick = function(){ 
+		panorama.setPosition(new BMap.Point(113.411485,23.05326));  		
+	};
+	var panorama = new BMap.Panorama('panorama'); 
+	panorama.setPov({heading: -40, pitch: 6});
+	document.getElementById("setPanoramaByLocation2").onclick = function(){ 
+		panorama.setPosition(new BMap.Point(113.416174,23.050418));   
+	};
+	var panorama = new BMap.Panorama('panorama'); 
+	panorama.setPov({heading: -40, pitch: 6});
+	document.getElementById("setPanoramaByLocation8").onclick = function(){ 
+		panorama.setPosition(new BMap.Point(113.179255,23.434812));   
+	};
+	var panorama = new BMap.Panorama('panorama'); 
+	panorama.setPov({heading: -40, pitch: 6});
+	document.getElementById("setPanoramaByLocation9").onclick = function(){ 
+		panorama.setPosition(new BMap.Point(113.413311,23.053533));   
+	};
+</script>
+
+
